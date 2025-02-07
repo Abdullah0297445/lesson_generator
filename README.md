@@ -1,7 +1,9 @@
 # LessonGenerator
 POC demonstrating the detection of objects in images; and then generate a bunch of activities that children can do using those objects. 
 
-Note: Guardrails are not included.
+> **Note:** Guardrails are not included.
+
+---
 
 ## Pre-Requisites
 1. Docker
