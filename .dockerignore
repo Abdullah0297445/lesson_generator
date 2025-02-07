@@ -4,3 +4,5 @@ README.md
 Dockerfile
 docker-compose.yaml
 .dockerignore
+Makefile
+LICENSE.txt
