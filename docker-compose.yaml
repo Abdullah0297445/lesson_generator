@@ -1,0 +1,11 @@
+services:
+  generator:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./app.py:/app/app.py
+      - ./streamlit_app.py:/app/streamlit_app.py
+    ports:
+      - "${FLASK_PORT}:${FLASK_PORT}"
+      - "${STREAMLIT_PORT}:${STREAMLIT_PORT}"

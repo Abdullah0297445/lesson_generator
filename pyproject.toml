@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools >= 75.8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LessonGenerator"
+version = "0.1.0"
+authors = [
+  {name = "Abdullah Ajmal", email = "abdullah.ajmal@carteblanche.tech"},
+]
+maintainers = [
+  {name = "Abdullah Ajmal", email = "abdullah.ajmal@carteblanche.tech"},
+]
+description = "POC demonstrating the detection of objects in images; and then generate a bunch of activities that children can do using those objects. Note: Guardrails are not included."
+readme = "README.md"
+keywords = ["ai", "image recognition", "openai", "EdTech", "flask", "streamlit", "image-to-text", "LLM", "GPT", "proof of concept", "object detection"]
+requires-python = ">= 3.12"
+dependencies = [
+    "Flask==3.1.0",
+    "openai==1.61.1",
+    "requests==2.32.3",
+    "streamlit==1.42.0",
+    "python-dotenv==1.0.1"
+]
